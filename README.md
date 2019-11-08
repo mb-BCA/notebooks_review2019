@@ -1,14 +1,15 @@
-# notebooks_review2019
+# Analysis of fMRI/BOLD signals: connectivity estimation, task/subject identification, network analysis
+
+**These notebooks in Python 3 have been developed by Andrea Insabato, Gorka Zamora-López and Matthieu Gilson. If you use this toolbox, please cite the first papers referenced below.**
+
 These Python notebooks reproduce some figures in the following preprint using the libraries pyMOU and NetDynFlow: https://www.biorxiv.org/content/10.1101/531830v3
 
-The following notebook should be executed first to tune the model to the fMRI data: *MOU_EC_Estimation.ipynb*. The other notebooks can be used for classification and interpretation of the model (using the flow for network analysis).
+The notebook *MOU_EC_Estimation.ipynb* should be executed first to tune the model to the fMRI data. The other notebooks can be used for classification and interpretation of the model (using the flow for network analysis).
 
 The data files are:
 - BOLD time series in *ts_emp.npy*
 - structural connectivity in *SC_anat.npy*
 - ROI labels in *ROI_labels.npy*
-
-**These notebooks in Python 3 have been developed by Andrea Insabato, Gorka Zamora-López and Matthieu Gilson. If you use this toolbox, please cite the first papers referenced below.**
 
 ## Notebook *MOU_EC_Estimation.ipynb*
 
